@@ -3,3 +3,6 @@ __pycache__/
 *.wav
 narration.*.json
 qa_frames.jpg
+parts/*/reel.mp4
+parts/*/cover.jpg
+parts/*/qa.json
