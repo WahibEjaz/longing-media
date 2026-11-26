@@ -1,0 +1,252 @@
+{
+ "reel": "1.2",
+ "reel_number": 2,
+ "byline": false,
+ "notes": "Chapter 1, second half (the plan's row 1.3; the plan's 1.2 is already inside Reel 1.1). Triple hook: context (the night a moon boy met a girl from Earth) + lean (taught earth people are dangerous) + snapback (she didn't look dangerous, she looked lost). Ends on 'This way.' Lines are Wahib's own, trimmed. cap: ' | ' = new block, ' / ' = new line, *word* = accent (blue italic serif), **word** = bold.",
+ "sentences": [
+  {
+   "part": "hook",
+   "text": "This is the night a moon boy met a girl from Earth.",
+   "pause": 0.35,
+   "y": 300,
+   "cap": "This is the night / a *moon boy* met / a girl from *Earth.*",
+   "say": "This is the night a moon boy , met a girl from Earth."
+  },
+  {
+   "part": "hook",
+   "text": "All his life, he was told earth people are dangerous.",
+   "pause": 0.5,
+   "y": 300,
+   "cap": "All his life, / he was told earth people / are **dangerous.**"
+  },
+  {
+   "part": "hook",
+   "text": "She didn't look dangerous.",
+   "pause": 0.3,
+   "y": 260,
+   "cap": "She didn't look / **dangerous.**"
+  },
+  {
+   "part": "hook",
+   "text": "She looked lost.",
+   "pause": 0.7,
+   "y": 260,
+   "cont": true,
+   "cap": "She looked *lost.*"
+  },
+  {
+   "part": "story",
+   "text": "Allen walked past the markers no one was allowed to cross.",
+   "pause": 0.45,
+   "y": 440,
+   "cap": "*Allen* walked past / the **markers** | no one was allowed / to *cross.*"
+  },
+  {
+   "part": "story",
+   "text": "Tonight, someone was already there.",
+   "pause": 0.5,
+   "y": 440,
+   "cap": "Tonight, / someone was / **already there.**"
+  },
+  {
+   "part": "story",
+   "text": "A girl in a pale suit, alone in the dust.",
+   "pause": 0.35,
+   "y": 1330,
+   "cap": "A girl in a pale suit, / alone in the *dust.*"
+  },
+  {
+   "part": "story",
+   "text": "An earth person.",
+   "pause": 0.4,
+   "y": 1330,
+   "cap": "*An earth person.*"
+  },
+  {
+   "part": "story",
+   "text": "Allen froze.",
+   "pause": 0.35,
+   "y": 300,
+   "cap": "*Allen* **froze.**"
+  },
+  {
+   "part": "story",
+   "text": "Every warning told him to run.",
+   "pause": 0.6,
+   "y": 300,
+   "style": "warning",
+   "cap": "Every warning / told him to *run.*"
+  },
+  {
+   "part": "story",
+   "text": "Please. I think I'm lost. Can you help me?",
+   "pause": 0.6,
+   "y": 260,
+   "style": "voice",
+   "cap": "*Please.* | *I think I'm lost.* / *Can you help me?*"
+  },
+  {
+   "part": "story",
+   "text": "Slowly, Allen took one step toward her.",
+   "pause": 0.4,
+   "y": 300,
+   "cap": "Slowly, *Allen* took / **one step** toward her."
+  },
+  {
+   "part": "story",
+   "text": "This way, he said.",
+   "pause": 0.8,
+   "y": 1330,
+   "cap": "*This way,* he said."
+  },
+  {
+   "part": "cta",
+   "text": "Follow for part three.",
+   "pause": 1.4,
+   "y": 1150,
+   "cap": "**Follow** for part three."
+  }
+ ],
+ "cta_rule": "Regular reels end with 'Follow for part N.' only. Every 5th reel (reel_number 5, 10, 15 ...) adds 'Chapter one is free to read. The link is in my bio.' (or the current chapter) and the 'a story by Wahib' byline, to test whether it brings readers and whether it makes people swipe away.",
+ "scenes": [
+  {
+   "img": "../../assets/characters/allen_suit.jpg",
+   "from": 0,
+   "cam0": [
+    384,
+    300,
+    1.0
+   ],
+   "cam1": [
+    384,
+    300,
+    1.14
+   ],
+   "shade": "top"
+  },
+  {
+   "img": "../../assets/characters/aenor_close.jpg",
+   "from": 2,
+   "cam0": [
+    440,
+    300,
+    1.0
+   ],
+   "cam1": [
+    520,
+    300,
+    1.1
+   ],
+   "shade": "top"
+  },
+  {
+   "img": "../../assets/places/plains.jpg",
+   "from": 4,
+   "cam0": [
+    384,
+    300,
+    1.0
+   ],
+   "cam1": [
+    440,
+    300,
+    1.1
+   ],
+   "shade": "top"
+  },
+  {
+   "img": "../../assets/characters/aenor_wide.jpg",
+   "from": 6,
+   "cam0": [
+    384,
+    688,
+    1.0
+   ],
+   "cam1": [
+    384,
+    688,
+    1.05
+   ],
+   "shade": "bottom"
+  },
+  {
+   "img": "../../assets/characters/allen_suit.jpg",
+   "from": 8,
+   "cam0": [
+    384,
+    300,
+    1.12
+   ],
+   "cam1": [
+    384,
+    300,
+    1.32
+   ],
+   "shade": "top",
+   "dim_from": 9,
+   "dim": 0.3
+  },
+  {
+   "img": "../../assets/characters/aenor_close.jpg",
+   "from": 10,
+   "cam0": [
+    480,
+    300,
+    1.05
+   ],
+   "cam1": [
+    540,
+    300,
+    1.16
+   ],
+   "shade": "top"
+  },
+  {
+   "img": "../../assets/characters/allen_suit.jpg",
+   "from": 11,
+   "cam0": [
+    384,
+    300,
+    1.3
+   ],
+   "cam1": [
+    384,
+    300,
+    1.12
+   ],
+   "shade": "top"
+  },
+  {
+   "img": "../../assets/characters/aenor_wide.jpg",
+   "from": 12,
+   "cam0": [
+    384,
+    688,
+    1.06
+   ],
+   "cam1": [
+    384,
+    688,
+    1.0
+   ],
+   "shade": "bottom"
+  },
+  {
+   "img": "../../assets/places/plains.jpg",
+   "from": 13,
+   "cam0": [
+    384,
+    300,
+    1.04
+   ],
+   "cam1": [
+    384,
+    300,
+    1.0
+   ],
+   "shade": "top"
+  }
+ ],
+ "status": "posted",
+ "chapter": 1
+}

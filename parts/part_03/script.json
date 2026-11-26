@@ -1,0 +1,293 @@
+{
+ "reel": "2.1",
+ "reel_number": 3,
+ "chapter": 2,
+ "byline": false,
+ "voice": "af_bella",
+ "speed": 1.0,
+ "status": "ready",
+ "notes": "Chapter 2 opening (plan row 2.1). Triple hook: context (he was taught to fear her planet) + lean (nobody taught her to fear him) + snapback (then she asked for something forbidden), paid off by 'Can I see your side?'. Ends on Allen rubbing the back of his head, frozen. Lines are Wahib's own, trimmed.",
+ "sentences": [
+  {
+   "part": "hook",
+   "text": "He was taught to fear her planet.",
+   "pause": 0.4,
+   "y": 300,
+   "cap": "He was taught / to *fear* her planet."
+  },
+  {
+   "part": "hook",
+   "text": "Nobody ever taught her to fear him.",
+   "pause": 0.5,
+   "y": 300,
+   "cap": "Nobody ever taught her / to **fear** him."
+  },
+  {
+   "part": "hook",
+   "text": "Then she asked for something forbidden.",
+   "pause": 0.7,
+   "y": 260,
+   "cap": "Then she asked for / something *forbidden.*"
+  },
+  {
+   "part": "story",
+   "text": "Her name was Aenor.",
+   "pause": 0.35,
+   "y": 300,
+   "cap": "Her name was *Aenor.*"
+  },
+  {
+   "part": "story",
+   "text": "She asked questions faster than he could answer.",
+   "pause": 0.3,
+   "y": 300,
+   "cap": "She asked questions / **faster** than he / could answer."
+  },
+  {
+   "part": "story",
+   "text": "Did people in Lunar Land have pets? Music? Birthdays?",
+   "pause": 0.5,
+   "y": 300,
+   "cap": "Did people in *Lunar Land* / have *pets?* | *Music?* / *Birthdays?*"
+  },
+  {
+   "part": "story",
+   "text": "When she stepped close, he stepped away.",
+   "pause": 0.3,
+   "y": 300,
+   "cap": "When she stepped close, / he stepped **away.**"
+  },
+  {
+   "part": "story",
+   "text": "When she laughed, he flinched.",
+   "pause": 0.6,
+   "y": 300,
+   "cap": "When she laughed, / he *flinched.*"
+  },
+  {
+   "part": "story",
+   "text": "Why are you so scared of me?",
+   "pause": 0.7,
+   "y": 260,
+   "cap": "*Why are you* / *so scared of me?*",
+   "style": "voice"
+  },
+  {
+   "part": "story",
+   "text": "Then she stopped and turned to him.",
+   "pause": 0.4,
+   "y": 300,
+   "cap": "Then she stopped / and turned to him."
+  },
+  {
+   "part": "story",
+   "text": "Can I see your side?",
+   "pause": 0.8,
+   "y": 260,
+   "cap": "*Can I see* / *your side?*",
+   "style": "voice"
+  },
+  {
+   "part": "story",
+   "text": "His heart nearly stopped.",
+   "pause": 0.5,
+   "y": 300,
+   "cap": "His heart / nearly **stopped.**",
+   "style": "warning"
+  },
+  {
+   "part": "story",
+   "text": "Allen rubbed the back of his head.",
+   "pause": 0.9,
+   "y": 300,
+   "cap": "*Allen* rubbed / the back of his head."
+  },
+  {
+   "part": "cta",
+   "text": "Follow for part four.",
+   "pause": 1.4,
+   "y": 1150,
+   "cap": "**Follow** for part four."
+  }
+ ],
+ "cta_rule": "Regular reels end with 'Follow for part N.' only. Every 5th reel (reel_number 5, 10, 15 ...) adds 'Chapter N is free to read. The link is in my bio.' and \"byline\": true.",
+ "shots": [
+  {
+   "file": "images/01_bounding.jpg",
+   "for": "Her name was Aenor / questions / pets, music, birthdays",
+   "prompt": "Painted 2D animation style, clean line art, soft cinematic light, vertical 9:16 frame, no text or lettering in the image. Lunar Land in cool greys, blues and white under soft white street lamps. Asara and Earth in warm, bright colors. Space always black, with sharp stars and a large blue Earth. Out on the grey moon plains in low gravity, @Aenor in her smooth pale Earth suit and a clear helmet shield bounds high off the ground mid-step, arms out, talking and smiling. A few steps behind her, @Allen in his scuffed grey Lunar suit walks stiffly, keeping his distance. Long black shadows, black sky with sharp stars, large blue Earth high in the sky. Leave the top third mostly empty sky."
+  },
+  {
+   "file": "images/02_puzzled.jpg",
+   "for": "Why are you so scared of me?",
+   "prompt": "Painted 2D animation style, clean line art, soft cinematic light, vertical 9:16 frame, no text or lettering in the image. Lunar Land in cool greys, blues and white under soft white street lamps. Asara and Earth in warm, bright colors. Space always black, with sharp stars and a large blue Earth. Close-up of @Aenor's face through her clear helmet shield, frowning a little, puzzled, head tilted, looking at someone just off frame. Blond hair glowing softly inside the helmet, green eyes. Black starry sky behind her. Face in the lower half of the frame, empty sky above."
+  },
+  {
+   "file": "images/03_asara.jpg",
+   "for": "Then she stopped and turned / Can I see your side?",
+   "prompt": "Painted 2D animation style, clean line art, soft cinematic light, vertical 9:16 frame, no text or lettering in the image. Lunar Land in cool greys, blues and white under soft white street lamps. Asara and Earth in warm, bright colors. Space always black, with sharp stars and a large blue Earth. On the grey moon plains, @Aenor has stopped and turned back toward @Allen, gloved hands pressed together, asking him something. Far behind her on the horizon, the tall curved glass towers of Asara glow in warm colors, small craft drifting between them. Black sky with sharp stars, large blue Earth. Leave the top third mostly empty sky."
+  },
+  {
+   "file": "images/04_head.jpg",
+   "for": "His heart nearly stopped / Allen rubbed the back of his head",
+   "prompt": "Painted 2D animation style, clean line art, soft cinematic light, vertical 9:16 frame, no text or lettering in the image. Lunar Land in cool greys, blues and white under soft white street lamps. Asara and Earth in warm, bright colors. Space always black, with sharp stars and a large blue Earth. Medium shot of @Allen in his scuffed grey Lunar suit and slightly cloudy helmet shield, one gloved hand on the back of his helmet, looking down, unsure what to do. Grey plains, black sky with stars. Allen in the lower two thirds of the frame, empty sky above."
+  }
+ ],
+ "scenes": [
+  {
+   "img": "../../assets/places/plains.jpg",
+   "from": 0,
+   "cam0": [
+    384,
+    300,
+    1.0
+   ],
+   "cam1": [
+    430,
+    300,
+    1.12
+   ],
+   "shade": "top"
+  },
+  {
+   "img": "../../assets/characters/aenor_close.jpg",
+   "from": 1,
+   "cam0": [
+    440,
+    300,
+    1.0
+   ],
+   "cam1": [
+    520,
+    300,
+    1.1
+   ],
+   "shade": "top"
+  },
+  {
+   "img": "../../assets/characters/allen_suit.jpg",
+   "from": 2,
+   "cam0": [
+    384,
+    300,
+    1.12
+   ],
+   "cam1": [
+    384,
+    300,
+    1.3
+   ],
+   "shade": "top",
+   "dim_from": 2,
+   "dim": 0.3
+  },
+  {
+   "img": "images/01_bounding.jpg",
+   "from": 3,
+   "cam0": [
+    384,
+    688,
+    1.0
+   ],
+   "cam1": [
+    384,
+    640,
+    1.08
+   ],
+   "shade": "top"
+  },
+  {
+   "img": "images/01_bounding.jpg",
+   "from": 5,
+   "cam0": [
+    420,
+    640,
+    1.08
+   ],
+   "cam1": [
+    470,
+    640,
+    1.18
+   ],
+   "shade": "top"
+  },
+  {
+   "img": "../../assets/characters/allen_suit.jpg",
+   "from": 6,
+   "cam0": [
+    384,
+    300,
+    1.0
+   ],
+   "cam1": [
+    384,
+    300,
+    1.18
+   ],
+   "shade": "top"
+  },
+  {
+   "img": "images/02_puzzled.jpg",
+   "from": 8,
+   "cam0": [
+    384,
+    688,
+    1.0
+   ],
+   "cam1": [
+    384,
+    688,
+    1.1
+   ],
+   "shade": "top"
+  },
+  {
+   "img": "images/03_asara.jpg",
+   "from": 9,
+   "cam0": [
+    384,
+    688,
+    1.0
+   ],
+   "cam1": [
+    384,
+    640,
+    1.12
+   ],
+   "shade": "top"
+  },
+  {
+   "img": "images/04_head.jpg",
+   "from": 11,
+   "cam0": [
+    384,
+    688,
+    1.0
+   ],
+   "cam1": [
+    384,
+    688,
+    1.14
+   ],
+   "shade": "top",
+   "dim_from": 11,
+   "dim": 0.25
+  },
+  {
+   "img": "images/03_asara.jpg",
+   "from": 13,
+   "cam0": [
+    384,
+    640,
+    1.06
+   ],
+   "cam1": [
+    384,
+    688,
+    1.0
+   ],
+   "shade": "top"
+  }
+ ],
+ "caption": "He was taught to fear her planet. Nobody ever taught her to fear him.\nChapter 2, part 1.\nWould you show her your side?\n#longingmoonstory #scifi #webnovel #animation #bookstagram"
+}

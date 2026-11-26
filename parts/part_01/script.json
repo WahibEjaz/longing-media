@@ -1,0 +1,134 @@
+{
+ "reel": "1.1",
+ "reel_number": 1,
+ "byline": false,
+ "notes": "Triple hook: context (story of a city on the moon) + lean (forbidden to look at Earth) + snapback (everyone obeys, except one boy). cap: ' | ' = new block, ' / ' = new line, *word* = accent (blue italic serif), **word** = bold. y = top of the text block on screen. cont = continue the previous block on a new line.",
+ "sentences": [
+  {
+   "part": "hook",
+   "text": "This is the story of a city on the moon,",
+   "pause": 0.2,
+   "y": 790,
+   "cap": "This is the story / of a city / on the *moon,*"
+  },
+  {
+   "part": "hook",
+   "text": "where no one is allowed to look at Earth.",
+   "pause": 0.5,
+   "y": 790,
+   "cap": "where **no one** / is allowed to look / at *Earth.*"
+  },
+  {
+   "part": "hook",
+   "text": "Everyone obeys.",
+   "pause": 0.3,
+   "y": 790,
+   "cap": "**Everyone** obeys."
+  },
+  {
+   "part": "hook",
+   "text": "Except one boy.",
+   "pause": 0.8,
+   "y": 790,
+   "cont": true,
+   "cap": "Except *one boy.*",
+   "say": "Except one boy ."
+  },
+  {
+   "part": "story",
+   "text": "The city was called Lunar Land.",
+   "pause": 0.35,
+   "y": 700,
+   "cap": "The city was called / *Lunar Land.*"
+  },
+  {
+   "part": "story",
+   "text": "From every street, you could see the Earth, big and blue in the black sky.",
+   "pause": 0.45,
+   "y": 700,
+   "cap": "From every street, / you could see / the *Earth,* | big and **blue** / in the black sky."
+  },
+  {
+   "part": "story",
+   "text": "Every morning, the screens said the same words.",
+   "pause": 0.4,
+   "y": 330,
+   "cap": "Every morning, / the **screens** said / the same words.",
+   "say": "Every morning, the screens, said the same words."
+  },
+  {
+   "part": "story",
+   "text": "Do not look.",
+   "pause": 0.3,
+   "y": 330,
+   "style": "warning",
+   "cap": "*Do not look.*"
+  },
+  {
+   "part": "story",
+   "text": "Do not wonder.",
+   "pause": 0.3,
+   "y": 330,
+   "style": "warning",
+   "cont": true,
+   "cap": "*Do not wonder.*"
+  },
+  {
+   "part": "story",
+   "text": "Do not go near.",
+   "pause": 0.3,
+   "y": 330,
+   "style": "warning",
+   "cont": true,
+   "cap": "*Do not go near.*"
+  },
+  {
+   "part": "story",
+   "text": "The earth people might come.",
+   "pause": 0.6,
+   "y": 330,
+   "style": "warning",
+   "cap": "*The earth people* / *might come.*"
+  },
+  {
+   "part": "story",
+   "text": "Allen was sixteen.",
+   "pause": 0.25,
+   "y": 330,
+   "cap": "*Allen* was **sixteen.**",
+   "say": "Allen wuz sixteen ."
+  },
+  {
+   "part": "story",
+   "text": "He believed it, like everyone else.",
+   "pause": 0.35,
+   "y": 330,
+   "cap": "He **believed** it, / like everyone else."
+  },
+  {
+   "part": "story",
+   "text": "But one question never left him.",
+   "pause": 0.6,
+   "y": 330,
+   "cap": "But one question / never left him."
+  },
+  {
+   "part": "story",
+   "text": "Why?",
+   "pause": 0.9,
+   "y": 330,
+   "big": true,
+   "cap": "*Why?*"
+  },
+  {
+   "part": "cta",
+   "text": "Follow for part two.",
+   "pause": 1.4,
+   "y": 1150,
+   "cap": "**Follow** for part two."
+  }
+ ],
+ "cta_rule": "Regular reels end with 'Follow for part N.' only. Every 5th reel (reel_number 5, 10, 15 ...) adds 'Chapter one is free to read. The link is in my bio.' (or the current chapter) and the 'a story by Wahib' byline, to test whether it brings readers and whether it makes people swipe away.",
+ "status": "posted",
+ "renderer": "render2.py (single background + Allen cut-out; not in this repo)"
+}

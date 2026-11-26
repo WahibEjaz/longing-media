@@ -1,0 +1,30 @@
+{
+ "account": "instagram_true-cage (@athenwrites)",
+ "post_days": [
+  "Monday",
+  "Wednesday",
+  "Friday"
+ ],
+ "next_part": 3,
+ "posted": [
+  {
+   "part": 1,
+   "chapter": 1,
+   "row": "1.1",
+   "date": "2026-11-26",
+   "video": "reels/Longing_Reel_1.1.mp4",
+   "media_id": "18482074609137879",
+   "permalink": "https://www.instagram.com/reel/DgNLR-gMEGI/"
+  },
+  {
+   "part": 2,
+   "chapter": 1,
+   "row": "1.2",
+   "date": "2026-11-26",
+   "video": "reels/Longing_Reel_1.2.mp4",
+   "media_id": "18131913400855004",
+   "permalink": "https://www.instagram.com/reel/DgNLeD8oYPG/"
+  }
+ ],
+ "notes": "Part 1's caption shows %23 instead of # (posted before the rule); Wahib fixes it by hand in the app."
+}

@@ -1,0 +1,5 @@
+.cache/
+__pycache__/
+*.wav
+narration.*.json
+qa_frames.jpg
