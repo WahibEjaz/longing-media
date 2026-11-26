@@ -23,8 +23,9 @@
    "date": "2026-11-26",
    "video": "reels/Longing_Reel_1.2.mp4",
    "media_id": "18131913400855004",
-   "permalink": "https://www.instagram.com/reel/DgNLeD8oYPG/"
+   "permalink": "https://www.instagram.com/reel/DgNLeD8oYPG/",
+   "link_comment_id": "18103890824394896"
   }
  ],
- "notes": "Part 1's caption shows %23 instead of # (posted before the rule); Wahib fixes it by hand in the app."
+ "notes": "Part 1's caption shows %23 instead of #; Wahib is leaving it for now. Part 2 got the Royal Road link as a comment (its caption can't be edited by API). From Part 3 on, the link is in every caption."
 }

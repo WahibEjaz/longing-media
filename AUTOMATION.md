@@ -25,6 +25,9 @@ Wahib reviews the reels directly on Instagram after they go live, so runs post w
 - `assets/`: reusable images (characters, places). Scenes point to them with `../../assets/...`.
 - `reels/`: finished files served to Instagram: `Longing_Part_NN.mp4` and `Longing_Part_NN_cover.jpg`.
 - `pipeline/`: the tools. `setup.sh` once per session, then `make_reel.py parts/part_NN`.
+- Royal Road (the book, free to read): https://www.royalroad.com/fiction/206987/longing
+  Written as `royalroad.com/fiction/206987/longing` in captions and comments (Instagram links there are not clickable, so keep it short).
+  The bio link could not be saved yet (26 Nov 2026), so the link goes in every caption instead.
 - The novel: claude.ai Project "Hobby's", doc `claude/longing-master.txt` (Projects tool). Chapters start with `## Chapter N|Title`.
 - The reel plan (scene by scene for every reel): Claude Docs doc `e6b9aefe-6091-4405-962d-9ace32014a0c`,
   tab "Episodes" (node `8eaaa316-8dd5`), "Look book" (node `089b5136-fae6`) for looks of every character and place.
@@ -38,7 +41,16 @@ Part 1 = 1.1, Part 2 = 1.2 (plan's 1.3), Part 3 = 2.1, Part 4 = 2.2, Part 5 = 2.
 (Part P >= 3 is chapter `(P - 3) // 3 + 2`, row `(P - 3) % 3 + 1`).
 Posting days: Monday, Wednesday, Friday.
 
-## Writing a reel script (weekly prep run)
+## Prep run (any day)
+
+The prep run checks every evening and only works when something is needed, so Wahib can give Chrome access on any day.
+- Scripts: "upcoming" parts are `next_part` and later. If fewer than 2 upcoming parts have a script.json, write the next 3.
+- Images: for every upcoming part with a script but no images in its folder and no `"flow_images_made"` date in its
+  script, make the images in Flow if the Chrome tools work, then set `"flow_images_made": "YYYY-MM-DD"` and push.
+- If there is nothing to do, end quietly with one short line. If images are needed but Chrome is not available,
+  only tell Wahib when that part posts within the next 2 days.
+
+## Writing a reel script (prep run)
 
 Copy the shape of `parts/part_03/script.json`.
 
@@ -49,14 +61,15 @@ Copy the shape of `parts/part_03/script.json`.
 - The last sentence is the CTA, `"part": "cta"`: "Follow for part N." with N = this part's number + 1, in words.
 - Every 5th part (5, 10, 15, ...): before the CTA add "Chapter C is free to read. The link is in my bio."
   and set `"byline": true`. First check the bio link: `INSTAGRAM_GET_USER_INFO` (account instagram_true-cage,
-  fields `website,biography`). If there is no link yet, say "Chapter C is free to read on Royal Road." instead.
+  fields `website,biography`). If the bio has no Royal Road link yet, say
+  "Chapter C is free to read on Royal Road. The link is in the caption." instead.
   All other parts: no name, no link line, `"byline": false`.
 - `cap` marks: " | " new block, " / " new line, `*word*` blue italic accent, `**word**` bold.
   At most 2 lines per block. `y` is the block's top: about 260 to 440 over sky at the top, 1150 to 1330 low.
 - `"say"`: what the voice reads if it must differ from the screen text (pronunciation fixes).
   Book names are respelled automatically by `NAMES` in `pipeline/narrate.py` (Aenor is said "Eh-nor");
   add new names there.
-- `"caption"`: "<hook lines>\nChapter C, part R.\n<one question for the comments>\n#longingmoonstory #scifi #webnovel #animation #bookstagram"
+- `"caption"`: "<hook lines>\nChapter C, part R.\n<one question for the comments>\nRead Chapter C free on Royal Road: royalroad.com/fiction/206987/longing\n#longingmoonstory #scifi #webnovel #animation #bookstagram"
 - `"shots"`: 3 to 5 new images, each with `file` (images/01_name.jpg ...), `for` (which lines) and the full Flow `prompt`.
   Start every prompt with the Look book style line, use `@Allen` / `@Aenor`, ask for empty sky in the top third.
   Reuse `assets/` images where they fit.
@@ -67,7 +80,7 @@ Copy the shape of `parts/part_03/script.json`.
 - `"status": "ready"`. Add an empty `parts/part_NN/images/.keep` so Wahib's upload link opens.
   Commit and push the scripts (no wav files; .gitignore skips them).
 
-## Making the images (weekly prep run, needs Wahib's Chrome)
+## Making the images (prep run, needs Wahib's Chrome)
 
 1. In Chrome, open the Flow project. Use Image mode, 9:16. For each shot paste its prompt (with @Allen / @Aenor).
 2. Pick the best result per shot. Faces and suits must match the characters; no text in the image.
