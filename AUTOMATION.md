@@ -64,7 +64,8 @@ Copy the shape of `parts/part_03/script.json`.
   in pixels of the image scaled to 768 wide. 384, 688 is the centre of a 9:16 image.
 - Test the voice now: `python3 pipeline/narrate.py parts/part_NN/script.json af_bella parts/part_NN/narration.wav 1.0`
   then `python3 pipeline/align.py parts/part_NN/narration.wav`. Every line must say OK.
-- `"status": "ready"`. Commit and push the scripts (no wav files; .gitignore skips them).
+- `"status": "ready"`. Add an empty `parts/part_NN/images/.keep` so Wahib's upload link opens.
+  Commit and push the scripts (no wav files; .gitignore skips them).
 
 ## Making the images (weekly prep run, needs Wahib's Chrome)
 
@@ -80,8 +81,10 @@ Copy the shape of `parts/part_03/script.json`.
 1. Clone or pull this repo. Read `state.json`; NN = `next_part`.
 2. If `parts/part_NN/script.json` is missing, or any shot image is missing: post nothing,
    notify Wahib what is missing (with the upload link), stop.
-3. If the images have other names than the `shots` files: open each image, match it to the shot
-   descriptions, and rename with `git mv` to the shot file names.
+3. If the images have other names than the `shots` files: open each image (skip `.keep`), match it to the
+   shot descriptions, and rename with `git mv` to the shot file names (convert to JPEG if it is a PNG or WebP).
+   If an image clearly breaks the look (wrong face, a character in normal clothes outside the city's shield,
+   text in the image), post nothing and tell Wahib which shot to redo.
 4. `bash pipeline/setup.sh` then `python3 pipeline/make_reel.py parts/part_NN`.
    - Exit 2 = a misheard line: fix with `"say"` (or NAMES) and run again.
    - Exit 3 = a caption line too wide: split it with " / " and run again.
