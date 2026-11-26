@@ -21,7 +21,7 @@ Wahib reviews the reels directly on Instagram after they go live, so runs post w
 
 - `state.json`: which parts are posted, and the next part to post.
 - `parts/part_NN/script.json`: one reel (NN = posting number, two digits). `"status"`: "ready" or "posted".
-- `parts/part_NN/images/`: the new images for that reel (Wahib uploads them; names can be anything).
+- `parts/part_NN/images/`: the new images for that reel (Wahib uploads them in his Longing chat, which pushes them here; names can be anything).
 - `assets/`: reusable images (characters, places). Scenes point to them with `../../assets/...`.
 - `reels/`: finished files served to Instagram: `Longing_Part_NN.mp4` and `Longing_Part_NN_cover.jpg`.
 - `pipeline/`: the tools. `setup.sh` once per session, then `make_reel.py parts/part_NN`.
@@ -84,16 +84,18 @@ Copy the shape of `parts/part_03/script.json`.
 
 1. In Chrome, open the Flow project. Use Image mode, 9:16. For each shot paste its prompt (with @Allen / @Aenor).
 2. Pick the best result per shot. Faces and suits must match the characters; no text in the image.
-3. Flow images can't be fetched from outside his signed-in browser, so Wahib moves them:
-   send him one message listing, per part, which picture is which shot, and the upload link
-   `https://github.com/WahibEjaz/longing-media/upload/main/parts/part_NN/images`.
-   File names don't matter; the posting run matches them by looking.
+3. Flow images can't be fetched from outside his signed-in browser, so Wahib moves them: he downloads the
+   new Favorites and uploads them in his Longing chat in Claude (claude.ai Project "Hobby's"). That chat
+   matches each picture to its part and shot by looking, and pushes them to `parts/part_NN/images/`.
+   Send him one message listing, per part, which pictures belong to it. (Fallback if he prefers:
+   `https://github.com/WahibEjaz/longing-media/upload/main/parts/part_NN/images`.)
+   File names don't matter; the posting run matches them by looking too.
 
 ## Posting run (Monday, Wednesday, Friday)
 
 1. Clone or pull this repo. Read `state.json`; NN = `next_part`.
 2. If `parts/part_NN/script.json` is missing, or any shot image is missing: post nothing,
-   notify Wahib what is missing (with the upload link), stop.
+   tell Wahib what is missing and to upload those pictures in his Longing chat in Claude, stop.
 3. If the images have other names than the `shots` files: open each image (skip `.keep`), match it to the
    shot descriptions, and rename with `git mv` to the shot file names (convert to JPEG if it is a PNG or WebP).
    If an image clearly breaks the look (wrong face, a character in normal clothes outside the city's shield,
