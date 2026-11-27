@@ -18,9 +18,13 @@ model = WhisperModel("small.en", device="cpu", compute_type="int8")
 NUM = {"1": "one", "2": "two", "3": "three", "4": "four", "5": "five", "6": "six", "7": "seven", "8": "eight",
        "9": "nine", "10": "ten", "11": "eleven", "12": "twelve", "16": "sixteen", "450": "fourhundredfifty"}
 
+# Words that sound the same: Whisper may spell them either way, so they count as a match.
+SAME = {"too": "two", "to": "two", "blonde": "blond", "your": "you're", "board": "bored"}
+
 def norm(w):
     w = re.sub(r"[^a-z0-9']", "", w.lower())
-    return NUM.get(w, w)
+    w = NUM.get(w, w)
+    return SAME.get(w, w)
 
 out = []
 report = []

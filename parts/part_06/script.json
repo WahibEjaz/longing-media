@@ -27,7 +27,7 @@
    "part": "hook",
    "text": "But Allen knew who they were really looking for.",
    "pause": 0.7,
-   "y": 260,
+   "y": 170,
    "cap": "But *Allen* knew / who they were / **really** looking for."
   },
   {
@@ -35,7 +35,7 @@
    "text": "They were on a rooftop when the first ship appeared.",
    "pause": 0.3,
    "y": 300,
-   "cap": "They were on a rooftop / when the first ship *appeared.*"
+   "cap": "They were on a rooftop / when the first ship / *appeared.*"
   },
   {
    "part": "story",
@@ -76,23 +76,23 @@
    "part": "story",
    "text": "They're here for you.",
    "pause": 0.6,
-   "y": 260,
-   "cap": "*They're here* / *for you.*",
+   "y": 200,
+   "cap": "*They're here for you.*",
    "style": "voice"
   },
   {
    "part": "story",
    "text": "Yes. They're here for me.",
    "pause": 0.6,
-   "y": 260,
-   "cap": "*Yes.* | *They're here* / *for me.*",
+   "y": 200,
+   "cap": "*Yes.* | *They're here for me.*",
    "style": "voice"
   },
   {
    "part": "story",
    "text": "She turned the bracelet on her wrist, around and around.",
    "pause": 0.9,
-   "y": 300,
+   "y": 220,
    "cap": "She turned the bracelet / on her wrist, / around and **around.**"
   },
   {
@@ -164,12 +164,12 @@
    "from": 2,
    "cam0": [
     384,
-    720,
-    1.12
+    620,
+    1.06
    ],
    "cam1": [
     384,
-    720,
+    660,
     1.0
    ],
    "shade": "top",
@@ -241,13 +241,13 @@
    "from": 9,
    "cam0": [
     384,
-    688,
+    660,
     1.0
    ],
    "cam1": [
     384,
-    720,
-    1.12
+    630,
+    1.05
    ],
    "shade": "top"
   },

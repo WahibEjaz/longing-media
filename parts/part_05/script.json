@@ -49,8 +49,9 @@
    "part": "story",
    "text": "The officer saw the blond strand under her cap.",
    "pause": 0.4,
-   "y": 300,
-   "cap": "The officer saw / the **blond strand** / under her cap."
+   "y": 250,
+   "cap": "The officer saw / the **blond strand** / under her cap.",
+   "say": "The officer saw the blond strand , under her cap."
   },
   {
    "part": "story",
@@ -72,8 +73,7 @@
    "text": "Run!",
    "pause": 0.4,
    "y": 300,
-   "cap": "**RUN.**",
-   "say": "Run!"
+   "cap": "**Run!**"
   },
   {
    "part": "story",
@@ -180,13 +180,13 @@
    "from": 2,
    "cam0": [
     384,
-    720,
-    1.1
+    660,
+    1.04
    ],
    "cam1": [
     384,
-    760,
-    1.25
+    700,
+    1.12
    ],
    "shade": "top"
   },
@@ -210,13 +210,13 @@
    "from": 5,
    "cam0": [
     384,
-    720,
-    1.05
+    660,
+    1.0
    ],
    "cam1": [
     384,
-    760,
-    1.2
+    680,
+    1.06
    ],
    "shade": "top"
   },
