@@ -1,0 +1,278 @@
+{
+ "voice": "af_bella",
+ "speed": 1.0,
+ "status": "ready",
+ "cta_rule": "Regular reels end with 'Follow for part N.' only. Every 5th reel (reel_number 5, 10, 15 ...) adds the free-to-read line and \"byline\": true.",
+ "reel": "2.2",
+ "reel_number": 4,
+ "chapter": 2,
+ "byline": false,
+ "notes": "Chapter 2 middle (plan row 2.2): the shed, the disguise, Earth weight inside the shield. Triple hook: context (he snuck an Earth girl into his city), lean (a city taught to fear her), snapback (she took off her suit and his stomach dropped), paid off by 'she looked even more like an earth person'. Ends on Allen realizing he doesn't know why.",
+ "sentences": [
+  {
+   "part": "hook",
+   "text": "He snuck a girl from Earth into his city.",
+   "pause": 0.4,
+   "y": 300,
+   "cap": "He snuck a girl from *Earth* / into his city."
+  },
+  {
+   "part": "hook",
+   "text": "A city taught to fear her.",
+   "pause": 0.5,
+   "y": 300,
+   "cap": "A city taught / to **fear** her."
+  },
+  {
+   "part": "hook",
+   "text": "Then she took off her suit, and his stomach dropped.",
+   "pause": 0.7,
+   "y": 260,
+   "cap": "Then she took off her suit, / and his stomach *dropped.*"
+  },
+  {
+   "part": "story",
+   "text": "Without it, she looked even more like an earth person.",
+   "pause": 0.4,
+   "y": 300,
+   "cap": "Without it, she looked / even more like / an *earth person.*"
+  },
+  {
+   "part": "story",
+   "text": "So he found her an old jacket and a cap.",
+   "pause": 0.4,
+   "y": 300,
+   "cap": "So he found her / an old jacket and a **cap.**"
+  },
+  {
+   "part": "story",
+   "text": "Don't look at the sky. And walk like you're bored.",
+   "pause": 0.6,
+   "y": 300,
+   "cap": "*Don't look at the sky.* | *And walk like* / *you're bored.*",
+   "style": "voice"
+  },
+  {
+   "part": "story",
+   "text": "Inside the city, she almost fell over.",
+   "pause": 0.4,
+   "y": 300,
+   "cap": "Inside the city, / she almost **fell over.**"
+  },
+  {
+   "part": "story",
+   "text": "Why am I so heavy?",
+   "pause": 0.5,
+   "y": 260,
+   "cap": "*Why am I* / *so heavy?*",
+   "style": "voice"
+  },
+  {
+   "part": "story",
+   "text": "It's the same as Earth in here.",
+   "pause": 0.5,
+   "y": 260,
+   "cap": "*It's the same* / *as Earth in here.*",
+   "style": "voice"
+  },
+  {
+   "part": "story",
+   "text": "You keep Earth's weight on the moon? Why?",
+   "pause": 0.6,
+   "y": 260,
+   "cap": "*You keep Earth's weight* / *on the moon?* | *Why?*",
+   "style": "voice"
+  },
+  {
+   "part": "story",
+   "text": "He opened his mouth and realized he didn't know.",
+   "pause": 0.9,
+   "y": 300,
+   "cap": "He opened his mouth / and realized / he **didn't know.**"
+  },
+  {
+   "part": "cta",
+   "text": "Follow for part five.",
+   "pause": 1.4,
+   "y": 1150,
+   "cap": "**Follow** for part five."
+  }
+ ],
+ "caption": "He snuck a girl from Earth into his city. A city taught to fear her.\nChapter 2, part 2.\nWhat would you show her first?\nRead Chapter 2 free on Royal Road: royalroad.com/fiction/206987/longing\n#longingmoonstory #scifi #webnovel #animation #bookstagram",
+ "shots": [
+  {
+   "file": "images/01_shed.jpg",
+   "for": "Then she took off her suit / Without it, she looked even more like an earth person",
+   "prompt": "Painted 2D animation style, clean line art, soft cinematic light, vertical 9:16 frame, no text or lettering in the image. Lunar Land in cool greys, blues and white under soft white street lamps. Asara and Earth in warm, bright colors. Space always black, with sharp stars and a large blue Earth. Inside a dim, dusty old shed at the edge of the city, broken crates piled in the corner. Inside Lunar Land's city shield, so nobody wears a space suit or helmet. @Aenor has taken off her space suit: she wears bright, soft, colorful Earth clothes, and her blond hair is loose and shining as if it glows. She stands relaxed, looking curious. @Allen, in plain grey and blue Lunar clothes, stares at her, worried. Their two suits lie half hidden under the crates. Leave the top third mostly dark and empty."
+  },
+  {
+   "file": "images/02_disguise.jpg",
+   "for": "old jacket and a cap / don't look at the sky, walk like you're bored",
+   "prompt": "Painted 2D animation style, clean line art, soft cinematic light, vertical 9:16 frame, no text or lettering in the image. Lunar Land in cool greys, blues and white under soft white street lamps. Asara and Earth in warm, bright colors. Space always black, with sharp stars and a large blue Earth. In the doorway of an old shed at the edge of the city, soft white street lamp light. Inside Lunar Land's city shield, so nobody wears a space suit or helmet. @Aenor is in disguise: an old grey work jacket far too big for her with the sleeves rolled up three times, baggy grey trousers, and a cap pulled down over her blond hair. @Allen, in plain grey and blue Lunar clothes, shows her how to walk, hands in pockets, trying to look bored. Leave the top third mostly empty night sky with a large blue Earth."
+  },
+  {
+   "file": "images/03_heavy.jpg",
+   "for": "she almost fell over / why am I so heavy / you keep Earth's weight",
+   "prompt": "Painted 2D animation style, clean line art, soft cinematic light, vertical 9:16 frame, no text or lettering in the image. Lunar Land in cool greys, blues and white under soft white street lamps. Asara and Earth in warm, bright colors. Space always black, with sharp stars and a large blue Earth. A Lunar Land street at night: tall lamps glowing soft white, narrow carts gliding on rails, water running in clear pipes along the walls, a huge blue Earth in the black sky. Inside Lunar Land's city shield, so nobody wears a space suit or helmet. @Aenor, disguised in a far too big grey work jacket and a cap over her blond hair, stumbles as if suddenly heavy and holds on to the sleeve of @Allen, who wears plain grey and blue Lunar clothes and looks around nervously. Leave the top third mostly sky."
+  },
+  {
+   "file": "images/04_unsure.jpg",
+   "for": "He opened his mouth and realized he didn't know",
+   "prompt": "Painted 2D animation style, clean line art, soft cinematic light, vertical 9:16 frame, no text or lettering in the image. Lunar Land in cool greys, blues and white under soft white street lamps. Asara and Earth in warm, bright colors. Space always black, with sharp stars and a large blue Earth. Medium close-up of @Allen on a Lunar Land street at night under a soft white lamp, in plain grey and blue Lunar clothes. Inside Lunar Land's city shield, so nobody wears a space suit or helmet. His mouth is slightly open as if about to answer, eyes unsure, realizing he does not know the answer. A huge blue Earth in the black sky behind him. Face in the lower half of the frame, empty sky above."
+  }
+ ],
+ "scenes": [
+  {
+   "img": "../../assets/places/lunar_land.jpg",
+   "from": 0,
+   "cam0": [
+    384,
+    688,
+    1.0
+   ],
+   "cam1": [
+    384,
+    640,
+    1.1
+   ],
+   "shade": "top"
+  },
+  {
+   "img": "../../assets/places/lunar_land.jpg",
+   "from": 1,
+   "cam0": [
+    384,
+    640,
+    1.1
+   ],
+   "cam1": [
+    420,
+    600,
+    1.2
+   ],
+   "shade": "top"
+  },
+  {
+   "img": "images/01_shed.jpg",
+   "from": 2,
+   "cam0": [
+    384,
+    688,
+    1.12
+   ],
+   "cam1": [
+    384,
+    688,
+    1.0
+   ],
+   "shade": "top",
+   "dim_from": 2,
+   "dim": 0.25
+  },
+  {
+   "img": "images/01_shed.jpg",
+   "from": 3,
+   "cam0": [
+    384,
+    688,
+    1.0
+   ],
+   "cam1": [
+    384,
+    640,
+    1.1
+   ],
+   "shade": "top"
+  },
+  {
+   "img": "images/02_disguise.jpg",
+   "from": 4,
+   "cam0": [
+    384,
+    688,
+    1.0
+   ],
+   "cam1": [
+    384,
+    640,
+    1.1
+   ],
+   "shade": "top"
+  },
+  {
+   "img": "images/03_heavy.jpg",
+   "from": 6,
+   "cam0": [
+    384,
+    688,
+    1.0
+   ],
+   "cam1": [
+    384,
+    640,
+    1.1
+   ],
+   "shade": "top"
+  },
+  {
+   "img": "images/04_unsure.jpg",
+   "from": 8,
+   "cam0": [
+    384,
+    688,
+    1.0
+   ],
+   "cam1": [
+    384,
+    660,
+    1.08
+   ],
+   "shade": "top"
+  },
+  {
+   "img": "images/03_heavy.jpg",
+   "from": 9,
+   "cam0": [
+    384,
+    640,
+    1.1
+   ],
+   "cam1": [
+    384,
+    688,
+    1.0
+   ],
+   "shade": "top"
+  },
+  {
+   "img": "images/04_unsure.jpg",
+   "from": 10,
+   "cam0": [
+    384,
+    660,
+    1.08
+   ],
+   "cam1": [
+    384,
+    640,
+    1.16
+   ],
+   "shade": "top"
+  },
+  {
+   "img": "../../assets/places/lunar_land.jpg",
+   "from": 11,
+   "cam0": [
+    384,
+    640,
+    1.06
+   ],
+   "cam1": [
+    384,
+    688,
+    1.0
+   ],
+   "shade": "top"
+  }
+ ]
+}

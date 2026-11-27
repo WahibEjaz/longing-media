@@ -1,0 +1,270 @@
+{
+ "voice": "af_bella",
+ "speed": 1.0,
+ "status": "ready",
+ "cta_rule": "Regular reels end with 'Follow for part N.' only. Every 5th reel (reel_number 5, 10, 15 ...) adds the free-to-read line and \"byline\": true.",
+ "reel": "3.1",
+ "reel_number": 6,
+ "chapter": 3,
+ "byline": false,
+ "notes": "Chapter 3 opening (plan row 3.1): Earth ships circle the city, the screens say they came to kill, the police search, Allen realizes they are looking for Aenor. Triple hook paid off by 'They're here for you.' Ends on Aenor turning her bracelet.",
+ "sentences": [
+  {
+   "part": "hook",
+   "text": "Earth ships filled the sky over the moon city.",
+   "pause": 0.4,
+   "y": 300,
+   "cap": "*Earth ships* filled the sky / over the moon city."
+  },
+  {
+   "part": "hook",
+   "text": "Every screen said they came to kill.",
+   "pause": 0.5,
+   "y": 300,
+   "cap": "Every screen said / they came to **kill.**"
+  },
+  {
+   "part": "hook",
+   "text": "But Allen knew who they were really looking for.",
+   "pause": 0.7,
+   "y": 260,
+   "cap": "But *Allen* knew / who they were / **really** looking for."
+  },
+  {
+   "part": "story",
+   "text": "They were on a rooftop when the first ship appeared.",
+   "pause": 0.3,
+   "y": 300,
+   "cap": "They were on a rooftop / when the first ship *appeared.*"
+  },
+  {
+   "part": "story",
+   "text": "Then another. Then more than he could count.",
+   "pause": 0.5,
+   "y": 300,
+   "cap": "Then another. | Then more / than he could **count.**"
+  },
+  {
+   "part": "story",
+   "text": "But the attack never came.",
+   "pause": 0.5,
+   "y": 300,
+   "cap": "But the attack / *never came.*"
+  },
+  {
+   "part": "story",
+   "text": "Then the police came, checking every face.",
+   "pause": 0.4,
+   "y": 300,
+   "cap": "Then the police came, / checking **every face.**"
+  },
+  {
+   "part": "story",
+   "text": "They were looking for someone.",
+   "pause": 0.6,
+   "y": 300,
+   "cap": "They were looking / for *someone.*"
+  },
+  {
+   "part": "story",
+   "text": "Slowly, Allen looked at Aenor.",
+   "pause": 0.5,
+   "y": 300,
+   "cap": "Slowly, *Allen* / looked at *Aenor.*"
+  },
+  {
+   "part": "story",
+   "text": "They're here for you.",
+   "pause": 0.6,
+   "y": 260,
+   "cap": "*They're here* / *for you.*",
+   "style": "voice"
+  },
+  {
+   "part": "story",
+   "text": "Yes. They're here for me.",
+   "pause": 0.6,
+   "y": 260,
+   "cap": "*Yes.* | *They're here* / *for me.*",
+   "style": "voice"
+  },
+  {
+   "part": "story",
+   "text": "She turned the bracelet on her wrist, around and around.",
+   "pause": 0.9,
+   "y": 300,
+   "cap": "She turned the bracelet / on her wrist, / around and **around.**"
+  },
+  {
+   "part": "cta",
+   "text": "Follow for part seven.",
+   "pause": 1.4,
+   "y": 1150,
+   "cap": "**Follow** for part seven."
+  }
+ ],
+ "caption": "Earth ships filled the sky. Every screen said they came to kill.\nChapter 3, part 1.\nWhat would you do if you were Allen?\nRead Chapter 3 free on Royal Road: royalroad.com/fiction/206987/longing\n#longingmoonstory #scifi #webnovel #animation #bookstagram",
+ "shots": [
+  {
+   "file": "images/01_rooftop.jpg",
+   "for": "They were on a rooftop when the first ship appeared",
+   "prompt": "Painted 2D animation style, clean line art, soft cinematic light, vertical 9:16 frame, no text or lettering in the image. Lunar Land in cool greys, blues and white under soft white street lamps. Asara and Earth in warm, bright colors. Space always black, with sharp stars and a large blue Earth. On the flat roof of an old storehouse in Lunar Land at night, soft white lamps glowing in the streets below. Inside Lunar Land's city shield, so nobody wears a space suit or helmet. @Allen, in plain grey and blue Lunar clothes, and @Aenor, in a far too big grey work jacket with a crushed cap over her blond hair, sit side by side and look up in shock as the dark shape of a sleek pale ship slides across the stars above them. A huge blue Earth in the black sky."
+  },
+  {
+   "file": "images/02_ships.jpg",
+   "for": "then more than he could count / every screen said they came to kill",
+   "prompt": "Painted 2D animation style, clean line art, soft cinematic light, vertical 9:16 frame, no text or lettering in the image. Lunar Land in cool greys, blues and white under soft white street lamps. Asara and Earth in warm, bright colors. Space always black, with sharp stars and a large blue Earth. Dozens of sleek pale Earth ships with soft warm lights circling silently in the black sky above the rooftops of Lunar Land, their light beams sweeping slowly across the buildings. Below, people crowd the lamplit streets staring upward, parents holding their children. A huge blue Earth behind the ships. No text."
+  },
+  {
+   "file": "images/03_police.jpg",
+   "for": "the attack never came / then the police came, checking every face / looking for someone",
+   "prompt": "Painted 2D animation style, clean line art, soft cinematic light, vertical 9:16 frame, no text or lettering in the image. Lunar Land in cool greys, blues and white under soft white street lamps. Asara and Earth in warm, bright colors. Space always black, with sharp stars and a large blue Earth. A crowded Lunar Land street at night under soft white lamps. Inside Lunar Land's city shield, so nobody wears a space suit or helmet. Many patrol officers in plain dark grey-blue uniforms move through the crowd, stopping people and checking faces. In the crowd, @Allen, in plain grey and blue Lunar clothes, and @Aenor, disguised in a far too big grey work jacket and a cap, stand very still. Leave the top third mostly night sky."
+  },
+  {
+   "file": "images/04_bracelet.jpg",
+   "for": "they're here for you / yes, they're here for me / she turned the bracelet",
+   "prompt": "Painted 2D animation style, clean line art, soft cinematic light, vertical 9:16 frame, no text or lettering in the image. Lunar Land in cool greys, blues and white under soft white street lamps. Asara and Earth in warm, bright colors. Space always black, with sharp stars and a large blue Earth. Close-up of @Aenor in a shadowy Lunar Land doorway at night, wearing a cap and a far too big grey work jacket. Inside Lunar Land's city shield, so nobody wears a space suit or helmet. She looks down, quiet and sorry, turning a thin bracelet around and around on her wrist with her other hand. Soft white lamp light from the side. Her face and hands in the lower half of the frame, dark empty space above."
+  }
+ ],
+ "scenes": [
+  {
+   "img": "images/02_ships.jpg",
+   "from": 0,
+   "cam0": [
+    384,
+    688,
+    1.0
+   ],
+   "cam1": [
+    384,
+    640,
+    1.1
+   ],
+   "shade": "top"
+  },
+  {
+   "img": "images/02_ships.jpg",
+   "from": 1,
+   "cam0": [
+    384,
+    640,
+    1.1
+   ],
+   "cam1": [
+    384,
+    600,
+    1.2
+   ],
+   "shade": "top",
+   "dim_from": 1,
+   "dim": 0.15
+  },
+  {
+   "img": "images/04_bracelet.jpg",
+   "from": 2,
+   "cam0": [
+    384,
+    720,
+    1.12
+   ],
+   "cam1": [
+    384,
+    720,
+    1.0
+   ],
+   "shade": "top",
+   "dim_from": 2,
+   "dim": 0.25
+  },
+  {
+   "img": "images/01_rooftop.jpg",
+   "from": 3,
+   "cam0": [
+    384,
+    688,
+    1.0
+   ],
+   "cam1": [
+    384,
+    640,
+    1.1
+   ],
+   "shade": "top"
+  },
+  {
+   "img": "images/02_ships.jpg",
+   "from": 4,
+   "cam0": [
+    384,
+    688,
+    1.0
+   ],
+   "cam1": [
+    384,
+    640,
+    1.12
+   ],
+   "shade": "top"
+  },
+  {
+   "img": "images/03_police.jpg",
+   "from": 5,
+   "cam0": [
+    384,
+    688,
+    1.0
+   ],
+   "cam1": [
+    384,
+    640,
+    1.12
+   ],
+   "shade": "top"
+  },
+  {
+   "img": "images/03_police.jpg",
+   "from": 8,
+   "cam0": [
+    384,
+    640,
+    1.12
+   ],
+   "cam1": [
+    384,
+    660,
+    1.22
+   ],
+   "shade": "top"
+  },
+  {
+   "img": "images/04_bracelet.jpg",
+   "from": 9,
+   "cam0": [
+    384,
+    688,
+    1.0
+   ],
+   "cam1": [
+    384,
+    720,
+    1.12
+   ],
+   "shade": "top"
+  },
+  {
+   "img": "images/02_ships.jpg",
+   "from": 12,
+   "cam0": [
+    384,
+    640,
+    1.06
+   ],
+   "cam1": [
+    384,
+    688,
+    1.0
+   ],
+   "shade": "top"
+  }
+ ]
+}

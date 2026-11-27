@@ -1,0 +1,299 @@
+{
+ "voice": "af_bella",
+ "speed": 1.0,
+ "status": "ready",
+ "cta_rule": "Regular reels end with 'Follow for part N.' only. Every 5th reel (reel_number 5, 10, 15 ...) adds the free-to-read line and \"byline\": true.",
+ "reel": "2.3",
+ "reel_number": 5,
+ "chapter": 2,
+ "byline": true,
+ "notes": "Chapter 2 end (plan row 2.3): the patrol, the blond strand, the run, hiding in the farm rows, becoming friends. 5th reel: adds the free-to-read line and the byline. The bio has no link yet (26 Nov 2026), so the line points to the caption.",
+ "sentences": [
+  {
+   "part": "hook",
+   "text": "An Earth girl, hiding on the moon.",
+   "pause": 0.4,
+   "y": 300,
+   "cap": "An *Earth girl,* / hiding on the moon."
+  },
+  {
+   "part": "hook",
+   "text": "One slip, and she'd be caught.",
+   "pause": 0.5,
+   "y": 300,
+   "cap": "One slip, / and she'd be **caught.**"
+  },
+  {
+   "part": "hook",
+   "text": "Then one strand of hair slipped out.",
+   "pause": 0.7,
+   "y": 260,
+   "cap": "Then one strand of hair / *slipped out.*"
+  },
+  {
+   "part": "story",
+   "text": "A patrol officer stepped around the corner.",
+   "pause": 0.3,
+   "y": 300,
+   "cap": "A *patrol officer* / stepped around the corner."
+  },
+  {
+   "part": "story",
+   "text": "Walk like you're bored.",
+   "pause": 0.5,
+   "y": 260,
+   "cap": "*Walk like* / *you're bored.*",
+   "style": "voice"
+  },
+  {
+   "part": "story",
+   "text": "The officer saw the blond strand under her cap.",
+   "pause": 0.4,
+   "y": 300,
+   "cap": "The officer saw / the **blond strand** / under her cap."
+  },
+  {
+   "part": "story",
+   "text": "You two. Wait a moment.",
+   "pause": 0.5,
+   "y": 260,
+   "cap": "*You two.* / *Wait a moment.*",
+   "style": "voice"
+  },
+  {
+   "part": "story",
+   "text": "Allen grabbed her hand.",
+   "pause": 0.2,
+   "y": 300,
+   "cap": "*Allen* grabbed her hand."
+  },
+  {
+   "part": "story",
+   "text": "Run!",
+   "pause": 0.4,
+   "y": 300,
+   "cap": "**RUN.**",
+   "say": "Run!"
+  },
+  {
+   "part": "story",
+   "text": "Her cap flew off. She was laughing.",
+   "pause": 0.4,
+   "y": 300,
+   "cap": "Her cap flew off. / She was **laughing.**"
+  },
+  {
+   "part": "story",
+   "text": "They hid between the farm rows until the footsteps left.",
+   "pause": 0.5,
+   "y": 300,
+   "cap": "They hid between / the farm rows / until the footsteps left."
+  },
+  {
+   "part": "story",
+   "text": "That was the best thing that has ever happened to me.",
+   "pause": 0.6,
+   "y": 260,
+   "cap": "*That was the best thing* / *that has ever* / *happened to me.*",
+   "style": "voice"
+  },
+  {
+   "part": "story",
+   "text": "That night, they became friends.",
+   "pause": 0.8,
+   "y": 300,
+   "cap": "That night, / they became **friends.**"
+  },
+  {
+   "part": "cta",
+   "text": "Chapter two is free to read on Royal Road. The link is in the caption.",
+   "pause": 0.6,
+   "y": 1150,
+   "cap": "*Chapter two* is free to read / on **Royal Road.** | The link is / in the caption."
+  },
+  {
+   "part": "cta",
+   "text": "Follow for part six.",
+   "pause": 1.4,
+   "y": 1150,
+   "cap": "**Follow** for part six."
+  }
+ ],
+ "caption": "An Earth girl, hiding on the moon. Then one strand of hair slipped out.\nChapter 2, part 3.\nWould you have run too?\nRead Chapter 2 free on Royal Road: royalroad.com/fiction/206987/longing\n#longingmoonstory #scifi #webnovel #animation #bookstagram",
+ "shots": [
+  {
+   "file": "images/01_patrol.jpg",
+   "for": "A patrol officer stepped around the corner / walk like you're bored / you two, wait a moment",
+   "prompt": "Painted 2D animation style, clean line art, soft cinematic light, vertical 9:16 frame, no text or lettering in the image. Lunar Land in cool greys, blues and white under soft white street lamps. Asara and Earth in warm, bright colors. Space always black, with sharp stars and a large blue Earth. A narrow Lunar Land street behind the market at night, soft white lamps, laundry hanging between buildings. Inside Lunar Land's city shield, so nobody wears a space suit or helmet. A Lunar Land patrol officer in a plain dark grey-blue uniform steps around the corner ahead. @Allen, in plain grey and blue Lunar clothes, and @Aenor, disguised in a far too big grey work jacket and a cap pulled over her hair, walk stiffly, trying to look bored. Leave the top third mostly empty night sky."
+  },
+  {
+   "file": "images/02_strand.jpg",
+   "for": "one strand of hair slipped out / the officer saw the blond strand",
+   "prompt": "Painted 2D animation style, clean line art, soft cinematic light, vertical 9:16 frame, no text or lettering in the image. Lunar Land in cool greys, blues and white under soft white street lamps. Asara and Earth in warm, bright colors. Space always black, with sharp stars and a large blue Earth. Close-up of @Aenor in disguise on a Lunar Land street at night, wearing a cap and a far too big grey work jacket. Inside Lunar Land's city shield, so nobody wears a space suit or helmet. A single blond strand of hair has slipped out from under the cap and shines in the lamplight as if it has a light of its own. She looks nervous, eyes to the side. Her face in the lower half of the frame, dark empty space above."
+  },
+  {
+   "file": "images/03_run.jpg",
+   "for": "Allen grabbed her hand / run / her cap flew off, she was laughing",
+   "prompt": "Painted 2D animation style, clean line art, soft cinematic light, vertical 9:16 frame, no text or lettering in the image. Lunar Land in cool greys, blues and white under soft white street lamps. Asara and Earth in warm, bright colors. Space always black, with sharp stars and a large blue Earth. Running down a narrow Lunar Land street at night under a row of hanging laundry, soft white lamps. Inside Lunar Land's city shield, so nobody wears a space suit or helmet. @Allen, in plain grey and blue Lunar clothes, pulls @Aenor by the hand. Her cap is flying off behind her, her blond hair streams out shining, and she is laughing hard while running in a far too big grey work jacket. A huge blue Earth in the black sky. Leave the top third mostly sky."
+  },
+  {
+   "file": "images/04_farm.jpg",
+   "for": "they hid between the farm rows / best thing that ever happened / they became friends",
+   "prompt": "Painted 2D animation style, clean line art, soft cinematic light, vertical 9:16 frame, no text or lettering in the image. Lunar Land in cool greys, blues and white under soft white street lamps. Asara and Earth in warm, bright colors. Space always black, with sharp stars and a large blue Earth. Between long bright rows of green plants in the city's indoor green farms, under soft lamps. Inside Lunar Land's city shield, so nobody wears a space suit or helmet. @Allen, in plain grey and blue Lunar clothes, and @Aenor, in a far too big grey work jacket with her blond hair loose and leaves in it, lie flat on the ground side by side, faces streaked with dirt, laughing silently. Seen from slightly above. Leave the top third of the frame as dark leaves and lamp glow, no faces there."
+  }
+ ],
+ "scenes": [
+  {
+   "img": "images/02_strand.jpg",
+   "from": 0,
+   "cam0": [
+    384,
+    688,
+    1.0
+   ],
+   "cam1": [
+    384,
+    688,
+    1.08
+   ],
+   "shade": "top"
+  },
+  {
+   "img": "images/01_patrol.jpg",
+   "from": 1,
+   "cam0": [
+    384,
+    688,
+    1.0
+   ],
+   "cam1": [
+    384,
+    660,
+    1.1
+   ],
+   "shade": "top",
+   "dim_from": 1,
+   "dim": 0.2
+  },
+  {
+   "img": "images/02_strand.jpg",
+   "from": 2,
+   "cam0": [
+    384,
+    720,
+    1.1
+   ],
+   "cam1": [
+    384,
+    760,
+    1.25
+   ],
+   "shade": "top"
+  },
+  {
+   "img": "images/01_patrol.jpg",
+   "from": 3,
+   "cam0": [
+    384,
+    688,
+    1.0
+   ],
+   "cam1": [
+    384,
+    640,
+    1.12
+   ],
+   "shade": "top"
+  },
+  {
+   "img": "images/02_strand.jpg",
+   "from": 5,
+   "cam0": [
+    384,
+    720,
+    1.05
+   ],
+   "cam1": [
+    384,
+    760,
+    1.2
+   ],
+   "shade": "top"
+  },
+  {
+   "img": "images/01_patrol.jpg",
+   "from": 6,
+   "cam0": [
+    384,
+    640,
+    1.12
+   ],
+   "cam1": [
+    384,
+    640,
+    1.22
+   ],
+   "shade": "top"
+  },
+  {
+   "img": "images/03_run.jpg",
+   "from": 7,
+   "cam0": [
+    384,
+    688,
+    1.0
+   ],
+   "cam1": [
+    384,
+    640,
+    1.12
+   ],
+   "shade": "top"
+  },
+  {
+   "img": "images/04_farm.jpg",
+   "from": 10,
+   "cam0": [
+    384,
+    688,
+    1.0
+   ],
+   "cam1": [
+    384,
+    688,
+    1.1
+   ],
+   "shade": "top"
+  },
+  {
+   "img": "images/04_farm.jpg",
+   "from": 12,
+   "cam0": [
+    384,
+    688,
+    1.1
+   ],
+   "cam1": [
+    384,
+    688,
+    1.0
+   ],
+   "shade": "top"
+  },
+  {
+   "img": "../../assets/places/lunar_land.jpg",
+   "from": 13,
+   "cam0": [
+    384,
+    688,
+    1.0
+   ],
+   "cam1": [
+    384,
+    640,
+    1.08
+   ],
+   "shade": "bottom"
+  }
+ ]
+}
