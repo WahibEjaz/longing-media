@@ -5,7 +5,7 @@
   "Wednesday",
   "Friday"
  ],
- "next_part": 3,
+ "next_part": 4,
  "posted": [
   {
    "part": 1,
@@ -25,6 +25,15 @@
    "media_id": "18131913400855004",
    "permalink": "https://www.instagram.com/reel/DgNLeD8oYPG/",
    "link_comment_id": "18103890824394896"
+  },
+  {
+   "part": 3,
+   "chapter": 2,
+   "row": "2.1",
+   "date": "2026-11-27",
+   "video": "reels/Longing_Part_03.mp4",
+   "media_id": "18102411284437447",
+   "permalink": "https://www.instagram.com/reel/DgP0uLXAjAR/"
   }
  ],
  "notes": "Part 1's caption shows %23 instead of #; Wahib is leaving it for now. Part 2 got the Royal Road link as a comment (its caption can't be edited by API). From Part 3 on, the link is in every caption."
